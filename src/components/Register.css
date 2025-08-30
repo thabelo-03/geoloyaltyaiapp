@@ -1,0 +1,184 @@
+.register-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/loginimage.png');
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.4);
+  z-index: 1;
+}
+
+/* Add background image inside the card */
+.register-card {
+  position: relative;
+  z-index: 2;
+  background: linear-gradient(135deg, #1e3a8a, #7b5cf0), url('../assets/loginimage.png');
+  background-size: cover;
+  background-position: center;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+  color: #fff;
+  width: 350px;
+  text-align: center;
+}
+
+.register-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4); /* overlay for readability */
+  border-radius: 20px;
+  z-index: 0;
+}
+
+.register-card h2 {
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.input-group {
+  width: 100%;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  border: 2px solid rgba(255,255,255,0.5);
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  background: rgba(255,255,255,0.1);
+  transition: border 0.3s;
+  position: relative;
+  z-index: 1;
+}
+
+.input-group:focus-within {
+  border-color: #c084fc;
+}
+
+.input-group input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: transparent;
+  color: #fff;
+}
+
+.input-group input::placeholder {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.input-icon {
+  margin-right: 0.5rem;
+  color: black;
+}
+
+.eye-icon {
+  cursor: pointer;
+  color: #c084fc;
+  margin-left: 0.5rem;
+}
+
+.register-btn {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 10px;
+  background: #60a5fa;
+  color: white;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+  position: relative;
+  z-index: 1;
+}
+
+.register-btn:hover {
+  transform: scale(1.05);
+}
+
+.login-link {
+  color: #60a5fa;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.terms-checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.terms-checkbox input {
+  margin-right: 10px;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 5px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 25px 30px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.modal-content button {
+  margin-top: 15px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.role-select {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: transparent;
+  color: #fff;
+  padding: 0.3rem;
+  position: relative;
+  z-index: 1;
+}
+
+.role-select option {
+  background: #1e3a8a;
+  color: #fff;
+}

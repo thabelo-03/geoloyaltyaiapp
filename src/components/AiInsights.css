@@ -1,0 +1,66 @@
+.ai-card {
+  background: linear-gradient(145deg, #1e3a8a, #3b82f6);
+  color: #fff;
+  padding: 25px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 550px;
+  margin: 20px auto;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.4);
+  transition: all 0.3s;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.ai-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ai-icon {
+  font-size: 2.5rem;
+  margin-right: 15px;
+  color: #facc15;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+textarea {
+  width: 100%;
+  min-height: 100px;
+  border-radius: 12px;
+  border: none;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  resize: none;
+}
+
+button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+.ai-output p {
+  background: rgba(255,255,255,0.1);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}

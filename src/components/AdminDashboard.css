@@ -1,0 +1,201 @@
+/* HEADER - slightly smaller */
+.dashboard-header {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background: linear-gradient(135deg, #1e3a8a, #1e40af);
+  color: white;
+  border-radius: 0 0 1.2rem 1.2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard-header h1 {
+  font-size: 1.6rem;
+  margin-bottom: 0.2rem;
+}
+
+.dashboard-header p {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+/* AI INSIGHTS CARD - dark fading blue */
+.ai-insights-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: linear-gradient(135deg, #1e3a8a, #2563eb, #1e40af);
+  color: white;
+  padding: 1.2rem 1.5rem;
+  margin: 1.5rem auto;
+  border-radius: 1rem;
+  max-width: 600px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  transition: background 0.3s ease-in-out;
+}
+
+.ai-insights-card h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.ai-insights-card .ai-icon {
+  font-size: 2.2rem;
+}
+
+/* Rotating text effect */
+.insight-text {
+  font-size: 0.95rem;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* MANAGEMENT CARDS (unchanged from last) */
+.management-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.management-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-align: center;
+}
+
+.management-card h3 {
+  margin: 0.5rem 0;
+  color: #111827;
+}
+
+.management-card p {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.management-card .icon {
+  font-size: 1.8rem;
+  color: #2563eb;
+}
+
+.management-card input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.8rem 0;
+  border-radius: 0.5rem;
+  border: 1px solid #d1d5db;
+}
+
+.management-card button {
+  background: #2563eb;
+  border: none;
+  color: white;
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 0.6rem;
+}
+
+.management-card button:hover {
+  background: #1e40af;
+}
+
+.pressable {
+  cursor: pointer;
+}
+
+.pressable:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* Progress bars */
+.progress-bar {
+  height: 8px;
+  width: 100%;
+  background: #e5e7eb;
+  border-radius: 999px;
+  margin: 0.8rem 0;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #3b82f6;
+  transition: width 0.4s ease;
+}
+
+.progress-fill.report {
+  background: #10b981;
+}
+/* Scrollable dashboard */
+.admin-dashboard.scrollable {
+  height: 100vh;
+  overflow-y: auto;
+  padding: 20px;
+  background: #f8f9fa;
+}
+
+/* Grid layout */
+.management-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Modal styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.modal-icon {
+  font-size: 50px;
+  color: #4b9ce2;
+  margin-bottom: 15px;
+}
+
+.modal-content button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #4b9ce2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.modal-content button:hover {
+  background: #357ab8;
+}
