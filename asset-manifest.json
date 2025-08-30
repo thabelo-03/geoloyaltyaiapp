@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/thabelo-03/geoloyaltyaiapp/static/css/main.73c71308.css",
-    "main.js": "/thabelo-03/geoloyaltyaiapp/static/js/main.038293c0.js",
-    "static/js/453.b0278d17.chunk.js": "/thabelo-03/geoloyaltyaiapp/static/js/453.b0278d17.chunk.js",
-    "static/media/loginimage.png": "/thabelo-03/geoloyaltyaiapp/static/media/loginimage.e5bb87e699b966161341.png",
-    "index.html": "/thabelo-03/geoloyaltyaiapp/index.html",
-    "main.73c71308.css.map": "/thabelo-03/geoloyaltyaiapp/static/css/main.73c71308.css.map",
-    "main.038293c0.js.map": "/thabelo-03/geoloyaltyaiapp/static/js/main.038293c0.js.map",
-    "453.b0278d17.chunk.js.map": "/thabelo-03/geoloyaltyaiapp/static/js/453.b0278d17.chunk.js.map"
+    "main.css": "/geoloyaltyaiapp/static/css/main.74cf796e.css",
+    "main.js": "/geoloyaltyaiapp/static/js/main.53617f83.js",
+    "static/js/453.b0278d17.chunk.js": "/geoloyaltyaiapp/static/js/453.b0278d17.chunk.js",
+    "static/media/loginimage.png": "/geoloyaltyaiapp/static/media/loginimage.e5bb87e699b966161341.png",
+    "index.html": "/geoloyaltyaiapp/index.html",
+    "main.74cf796e.css.map": "/geoloyaltyaiapp/static/css/main.74cf796e.css.map",
+    "main.53617f83.js.map": "/geoloyaltyaiapp/static/js/main.53617f83.js.map",
+    "453.b0278d17.chunk.js.map": "/geoloyaltyaiapp/static/js/453.b0278d17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73c71308.css",
-    "static/js/main.038293c0.js"
+    "static/css/main.74cf796e.css",
+    "static/js/main.53617f83.js"
   ]
 }
