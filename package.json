@@ -1,4 +1,5 @@
 {
+  "homepage": "https://thabelo-03.github.io/geoloyaltyaiapp",
   "name": "geoloyaltyhub-frontend",
   "version": "0.1.0",
   "private": true,
@@ -10,7 +11,6 @@
     "axios": "^1.11.0",
     "bcryptjs": "^3.0.2",
     "firebase": "^12.1.0",
-    "gh-pages": "^6.3.0",
     "lucide-react": "^0.540.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
@@ -26,8 +26,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build"
-
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -36,9 +35,6 @@
     ]
   },
   
-  "homepage": "https://thabelo-03.github.io/geoloyaltyaiapp",
-
-
   "browserslist": {
     "production": [
       ">0.2%",
@@ -53,6 +49,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.12"
   }
