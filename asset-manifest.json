@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/geoloyaltyaiapp/static/css/main.74cf796e.css",
+    "main.js": "/geoloyaltyaiapp/static/js/main.3155053c.js",
+    "static/js/453.b0278d17.chunk.js": "/geoloyaltyaiapp/static/js/453.b0278d17.chunk.js",
+    "static/media/loginimage.png": "/geoloyaltyaiapp/static/media/loginimage.e5bb87e699b966161341.png",
+    "index.html": "/geoloyaltyaiapp/index.html",
+    "main.74cf796e.css.map": "/geoloyaltyaiapp/static/css/main.74cf796e.css.map",
+    "main.3155053c.js.map": "/geoloyaltyaiapp/static/js/main.3155053c.js.map",
+    "453.b0278d17.chunk.js.map": "/geoloyaltyaiapp/static/js/453.b0278d17.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74cf796e.css",
+    "static/js/main.3155053c.js"
+  ]
+}
